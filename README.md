@@ -3,7 +3,7 @@
 Source data: Constitution v1.2 and Code of Conduct v1.0 PDFs exported from the DAO dashboard, all 30 Snapshot (rbnt.eth) proposal PDFs, the proposal link list, and the Snapshot GraphQL API (hub.snapshot.org/graphql), all supplied via the poundeater/23 GitHub repository. Where GraphQL data conflicts with or fills gaps in the earlier PDF-screenshot analysis, that is called out explicitly.
 
 ## Governing Resources
-
+- [[Constitution v1.3]](https://drive.google.com/file/d/1luhxjVuhHsSi6hiYhKqcv9wwmZPOqJGF/view?pli=1)
 - [Constitution v1.2, Ratified](https://firebasestorage.googleapis.com/v0/b/redbelly-community-dao.firebasestorage.app/o/resources%2F1762476390856-Redbelly%20Community%20DAO%20Constitution%20v1.2%20-%20Ratified.pdf?alt=media&token=c89ccef9-cc7c-4a37-9b43-a3fac9e49ddc)
 - [Code of Conduct, Ratified](https://firebasestorage.googleapis.com/v0/b/redbelly-community-dao.firebasestorage.app/o/resources%2F1762476540292-Redbelly%20Community%20DAO%20Code%20of%20Conduct%20-%20Ratified.pdf?alt=media&token=84ca2c33-a502-4991-9720-4e6154847416)
 - [DAO Proposal Submission Flow Chart](https://firebasestorage.googleapis.com/v0/b/redbelly-community-dao.firebasestorage.app/o/resources%2F1762476710083-DAO%20Proposal%20Submission%20Flow%20Chart.pdf?alt=media&token=a035e054-c34c-4158-8402-1a2294ecc7a2)
@@ -12,7 +12,7 @@ Source data: Constitution v1.2 and Code of Conduct v1.0 PDFs exported from the D
 
 ## Current State Summary
 
-Redbelly Community DAO operates under two ratified governing documents, both ratified by Snapshot vote, not by the Google Form process examined separately below.
+Redbelly Community DAO's ratified governing documents for the period this changelog covers, 3 Sep 2025 to 24 Jul 2026, are Constitution v1.2 and Code of Conduct v1.0, both ratified by Snapshot vote, not by the Google Form process examined separately below. A newer Constitution, v1.3, was published 12 Aug 2026, after that window closed; its ratification method is not yet verified, see Constitution v1.3 further down.
 
 - Constitution v1.2, ratified via Snapshot vote 20 Sep 2025 ([proposal #2](https://snapshot.box/#/s:rbnt.eth/proposal/0xcc1ea0e69962dbb390d71a467c0ea69ce0b38de342ec0777e1ef130d11e844e3), "Redbelly Community DAO Constitution - Ratification," 1.8m RBNT voted, 100% For)
 - Code of Conduct v1.0, ratified via Snapshot vote 6 Oct 2025 ([proposal #9](https://snapshot.box/#/s:rbnt.eth/proposal/0x0503ba90c264f15e18cd7ca6b0757bbbdef2b00b0e3d1013f60bd17bc878c94d), "Community Code of Conduct," 92.97% For)
@@ -108,7 +108,11 @@ Snapshot's own frontend displays a "Passed" badge for this proposal, because its
 
 **Feb 2026 Google Form, "DAO Constitution Ratification, YES/NO Vote."** This is not the Constitution's ratification event. The actual ratification was [Snapshot proposal #2](https://snapshot.box/#/s:rbnt.eth/proposal/0xcc1ea0e69962dbb390d71a467c0ea69ce0b38de342ec0777e1ef130d11e844e3), closed 20 Sep 2025, matching the version history line inside the Constitution document itself. The Google Form is a separate, later, 9 to 10 respondent poll, run through a self-defined 60% adoption threshold that appears nowhere in Constitution Section 9's amendment process (7-day notice, 5-day token-weighted vote). Any changelog entry describing this poll's items as ratified constitutional changes would be inaccurate.
 
-**Constitution v1.3 reference.** [Snapshot proposal #28](https://snapshot.box/#/s:rbnt.eth/proposal/0xa57ccc9a6d554c9e5a1b1ca429ad2affc2e9058f12ea50bce999460f2aea4e02) (Jul 2026) lists "Redbelly Community DAO Constitution v1.3" as a supporting document. No v1.3 file was present in the supplied repository or resource links, all of which point to v1.2 as current. Open item: either a v1.3 draft exists elsewhere and was not shared, or the proposal referenced a document not yet formally version-controlled per Section 9.
+**Constitution v1.3 reference, found, ratification unverified.** Snapshot proposal #28 (Jul 2026) lists a "Constitution v1.3" as a supporting document. That document has since been located: published 12 Aug 2026, after the Snapshot data pull this changelog is built from (proposals through #30, 24 Jul 2026). Its own version history line reads "1.3, Governance consolidation incorporating ratified constitutional questionnaire and meeting clarifications," no Snapshot proposal number, no date. No proposal for a v1.3 ratification vote appears anywhere in the 30-proposal record. Either it was ratified via a Snapshot proposal created after #30 and falls outside this review's data, or it was ratified some other way. The phrase "constitutional questionnaire" closely echoes the Feb 2026 Google Form already excluded above for not meeting Section 9's amendment requirements. If v1.3 went through the same process, the same concern applies to it directly. Flagged as open, not resolved in either direction.
+
+What changed: v1.3 drops Section 3, Working Groups (Pods), entirely, and renumbers every later section down by one. Section 4 (Governance Process) becomes Section 3, Section 5 (Conflict of Interest) becomes 4, Section 6 (Treasury Management) becomes 5, Section 7 (Contributor Expectations) becomes 6, Section 8 (Community Involvement) becomes 7, Section 9 (Amendments) becomes 8, Section 10 (Founding Principles) becomes 9. Every "Section N" reference in the changelog table cites v1.2, the ratified text actually in force for this changelog's entire window; use this mapping to translate to v1.3.
+
+This reinforces the Guild Consolidation finding rather than reversing it. v1.3, the newest constitutional text, has no Working Groups (Pods) section at all, not three pods as proposal #5 asked for, not five as the pre-#5 status quo. Per the Discord record obtained during this review, guild channels were removed roughly 2 Aug 2026, and guild leadership roles were replaced by General DAO Leaders during the Jan 2026 elections, proposal #18. Both post-date proposal #5 by four to ten months and do not match what #5 specifically asked for, folding two of five pods into the other three. Pods disappeared eventually, on a different timeline, through a different mechanism, not the one proposal #5 described. That remains consistent with #5 itself never having been implemented.
 
 ## Unimplemented Cases
 
@@ -118,7 +122,7 @@ Snapshot's own frontend displays a "Passed" badge for this proposal, because its
 
 - Resolved. Exact vote-choice percentages and exact Created/End dates for all 30 proposals are now sourced directly to the Snapshot GraphQL API (hub.snapshot.org/graphql), which returns start, end, scores, and scores_total per proposal with no authentication required. No entry in this changelog carries an approximate date or an unsourced margin any longer.
 - Resolved. The GraphQL strategies field confirms a whitelist strategy attached to every substantive proposal from the Constitution ratification (#2) through High Council Elections (#30), including both proposals created after #28. See Verification Flag above.
-- The Constitution v1.3 document referenced in proposal 28 was not located.
+- Constitution v1.3, referenced in proposal 28, has been located (published 12 Aug 2026). How it was ratified has not: no matching Snapshot proposal exists in the 30-proposal record, see Disputed and Unratified Items above.
 - Proposal 10 (DAO logo vote) and proposals 18 and 30 (elections) are multi-choice or ranked votes rather than For/Against/Abstain proposals, so "Passed/Rejected" framing does not apply to them; they are reported as winner-by-power instead.
 
 ## Sources
